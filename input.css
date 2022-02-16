@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("./fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
+    url("./fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT55Roman";
+  src: url("./fonts/HelveticaNeueLT-55Rm.woff2") format("woff2"),
+    url("./fonts/HelveticaNeueLT-55Rm.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT55Roman";
+  src: url("./fonts/HelveticaNeueLT-75Bd.woff2") format("woff2"),
+    url("./fonts/HelveticaNeueLT-75Bd.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("./fonts/HelveticaNowDisplay-Light.woff2") format("woff2"),
+    url("./fonts/HelveticaNowDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("./fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiposka";
+  src: url("./fonts/Tiposka-Regular.woff2") format("woff2"),
+    url("./fonts/Tiposka-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.automargin {
+  @apply px-6 mx-auto max-w-7xl;
+}
