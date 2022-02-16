@@ -59,3 +59,29 @@
 .automargin {
   @apply px-6 mx-auto max-w-7xl;
 }
+
+.slideinleft {
+  animation: slideinleft 1.5s ease-in-out forwards;
+}
+
+@keyframes slideinleft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideinright {
+  animation: slideinright 1.5s ease-in-out forwards;
+}
+
+@keyframes slideinright {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
