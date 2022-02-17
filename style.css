@@ -835,6 +835,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.opafade {
+  -webkit-animation: opafade 1.5s ease-in-out forwards;
+          animation: opafade 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes opafade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opafade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:text-6xl {
     font-size: 3.75rem;

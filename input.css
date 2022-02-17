@@ -85,3 +85,16 @@
     transform: translateX(0);
   }
 }
+
+.opafade {
+  animation: opafade 1.5s ease-in-out forwards;
+}
+
+@keyframes opafade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
