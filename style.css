@@ -1,3 +1,7 @@
+.body {
+  overflow-x: hidden;
+}
+
 /*
 ! tailwindcss v3.0.19 | MIT License | https://tailwindcss.com
 */
@@ -691,6 +695,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 @font-face {
   font-family: "HelveticaNowDisplay";
 
@@ -844,10 +852,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 11rem;
   }
 
-  .md\:mt-80 {
-    margin-top: 20rem;
-  }
-
   .md\:mb-40 {
     margin-bottom: 10rem;
   }
@@ -866,6 +870,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-80 {
+    margin-top: 20rem;
+  }
+
+  .md\:mt-64 {
+    margin-top: 16rem;
   }
 
   .md\:w-1\/2 {

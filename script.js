@@ -12,8 +12,8 @@ function doSomething(scrollPos) {
   }
 
   if (window.innerWidth > 800) {
-    if (scrollPos > 800) firstPic.classList.add("slideinleft");
-    if (scrollPos > 1400) secondPic.classList.add("slideinright");
+    if (scrollPos > 700) firstPic.classList.add("slideinleft");
+    if (scrollPos > 1300) secondPic.classList.add("slideinright");
   }
 }
 
